@@ -1,3 +1,6 @@
+		 compile and run the projects
+		------------------------------
+
 ledBlink5 project 
 ------------------
 
