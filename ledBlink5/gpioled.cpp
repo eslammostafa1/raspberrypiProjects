@@ -10,27 +10,6 @@
 #define PIN_HIGH "1" 
 #define PIN_LOW "0"
 
-class MyClass
-{
-public:
-    MyClass();
-    MyClass(MyClass &&) = default;
-    MyClass(const MyClass &) = default;
-    MyClass &operator=(MyClass &&) = default;
-    MyClass &operator=(const MyClass &) = default;
-    ~MyClass();
-
-private:
-    
-};
-
-MyClass::MyClass()
-{
-}
-
-MyClass::~MyClass()
-{
-}
 
 int main (){
     int fd;
